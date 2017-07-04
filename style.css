@@ -1,0 +1,404 @@
+body {
+  margin: 0;
+  background-color: whitesmoke !important;
+  font-family: "Heroic Condensed", Arial, Helvetica, sans-serif;
+  line-height: 1.5em;
+}
+.date_info{
+  text-align: center;
+}
+.day{
+  color: rgb(118,142,139);
+  font-size: 50px;
+  font-family: "Bree";
+  font-weight: bold;
+    display: block;
+}
+
+.month{
+  color: rgb(118,142,139);
+  font-size: 40px;
+  font-family: "Bree";
+  font-weight: bold;
+  display: inline-block;
+    margin-top: -40px;
+}
+
+.year{
+  color: rgb(118,142,139);
+  font-size: 40px;
+  font-family: "Bree";
+  font-weight: bold;
+    display: inline-block;
+    margin-top: -20px;
+}
+/*колонка с текстом*/
+.content-header{
+color: rgb(118,142,139);
+  font-size: 45px;
+  font-family: "Bree";
+  font-weight: bold;
+  display: block;
+  }
+.content_text{
+  font-family: "Bree";
+  display: block;
+  font-size: 150%;
+}
+.bottom_line{
+  margin-top: 10px;
+ border-bottom: 1px solid #00a0b0;
+}
+.header{
+color:rgb(237,73,72);
+background-color: white;
+border-radius: 2px;
+min-width: 100%;
+min-height: 15%;
+}
+.Name{
+font-size: 50px;
+font-family: "Heroic Condensed";
+font-weight: bolder;
+display:inline-block;
+    vertical-align:middle;
+    /*margin-left: 3%;*/
+}
+.helper0{
+    display:inline-block;
+    vertical-align:middle;
+    height:15%;
+    width:0px;
+}
+.helper{
+    display:inline-block;
+    vertical-align:middle;
+    height:15%;
+    width:0px;
+}
+#container {
+  width: 960px;
+  background: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#footer {
+  border-top: 1px solid #00a0b0;
+  margin-top: 40px;
+  padding: 20px 0 0 0;
+  font-size: .8em;
+}
+
+/*меню*/
+ul.menu-style {
+list-style: none;
+padding-bottom: 10px;
+display: block;
+
+}
+
+ul.menu-style li {
+display: inline;
+margin-right: 5px
+}
+
+ul.menu-style li a {
+color:rgb(118,142,139);
+font-family: "Heroic Condensed";
+font-weight: bolder;
+font-size: 20px;
+background: white;
+border: none;
+border-bottom: none;
+padding: 10px 14px
+}
+
+ul.menu-style li a:hover {
+background-color: whitesmoke;
+color:rgb(237,73,72)!important;
+border-radius: 2px;
+text-decoration: none;
+}
+
+ul.menu-style li a.selected {
+color: #555566;
+background: #ffffff;
+border: 1px #888899 solid;
+border-bottom: 1px #ffffff solid;
+padding: 14px 14px 10px 14px
+}
+
+/* Заголвки */
+
+h1 {
+  color:rgb(118,142,139)
+;
+  margin-bottom: 30px;
+  line-height: 1.2em;
+}
+
+h2, h2 {
+  color: rgb(118,142,139);
+}
+
+h2 a {
+  text-decoration: none;
+}
+
+
+/* Заголовки статей */
+
+#headlines {
+  list-style: none;
+  padding-left: 0;
+  width: 75%;
+
+}
+
+#headlines li {
+  margin-bottom: 2em;
+}
+
+.pubDate {
+  font-size: 1.1em;
+  color: rgb(118,142,139);
+  text-transform: uppercase;
+}
+
+#headlines .pubDate {
+  display: inline-block;
+  width: 100px;
+  font-size: .7em;
+}
+
+#headlines.archive .pubDate {
+  width: 130px;
+}
+
+.summary {
+  padding-left: 100px;
+}
+
+#headlines.archive .summary {
+  padding-left: 130px;
+}
+
+
+/* Заголовок для страницы администратора */
+
+#adminHeader {
+  width: 940px;
+  font-size: 0.8em;
+}
+
+form {
+  margin: 20px auto;
+  padding: 40px 20px;
+  overflow: auto;
+  background: rgb(118,142,139)!important;
+  border: 1px solid #666;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;  
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+}
+
+
+form ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+form ul li {
+  margin: .9em 0 0 0;
+  padding: 0;
+}
+
+form * {
+  line-height: 1em;
+}
+
+
+/* Метки полей */
+
+label {
+  display: block;
+  float: left;
+  clear: left;
+  text-align: right;
+  width: 15%;
+  padding: .4em 0 0 0;
+  margin: .15em .5em 0 0;
+}
+
+
+/* Поля */
+
+input, select, textarea {
+  display: block;
+  margin: 0;
+  padding: .4em;
+  width: 80%;
+}
+
+input, textarea, .date {
+  border: 2px solid #666;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;    
+  border-radius: 5px;
+  background: #fff;
+}
+
+input {
+  font-size: .9em;
+}
+
+select {
+  padding: 0;
+  margin-bottom: 2.5em;
+  position: relative;
+  top: .7em;
+}
+
+textarea {
+  font-family: "Heroic Condensed", Arial, Helvetica, sans-serif;
+  font-size: .9em;
+  height: 5em;
+  line-height: 1.5em;
+}
+
+textarea#content {
+  font-family: "Heroic Condensed", courier, fixed;
+}
+  
+
+/* Рамка вокруг поля */
+
+form *:focus {
+  border: 2px solid #7c412b;
+  outline: none;
+}
+
+
+/* Правильно заполненное поле имеет зеленый фон */
+
+input:valid, textarea:valid {
+  background: #efe;
+}
+
+
+/* Кнопки отправки */
+
+.buttons {
+  text-align: center;
+  margin: 40px 0 0 0;
+}
+
+input[type="submit"] {
+  display: inline;
+  margin: 0 20px;
+  width: 12em;
+  padding: 10px;
+  border: 2px solid #7c412b;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;  
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  color: black;
+  background: rgb(237,73,72)!important;
+  font-weight: bold;
+  -webkit-appearance: none;
+}
+
+input[type="submit"]:hover, input[type="submit"]:active {
+  cursor: pointer;
+  background: #fff;
+  color: white;
+}
+
+input[type="submit"]:active {
+  background: #eee;
+  -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+}
+
+
+/* Таблицы */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr, th, td {
+  padding: 10px;
+  margin: 0;
+  text-align: left;
+}
+
+table, th {
+  border: 1px solid #00a0b0;
+}
+
+th {
+  border-left: none;
+  border-right: none;
+  background: rgb(237,73,72)!important;
+  color: #fff;
+  cursor: default;
+}
+
+tr:nth-child(odd) {
+  background: rgb(118,142,139);
+  color:white;
+}
+
+tr:nth-child(even) {
+  background: #fff;
+}
+
+tr:hover {
+  background: #ddd;
+  cursor: pointer;
+}
+
+
+/* Окна для вывода статуса и сообщений об ошибках */
+
+.statusMessage, .errorMessage {
+  font-size: .8em;
+  padding: .5em;
+  margin: 2em 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+  -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+}
+
+.statusMessage {
+  background-color: #2b2;
+  border: 1px solid #080;
+  color: #fff;
+}
+
+.errorMessage {
+  background-color: #f22;
+  border: 1px solid #800;
+  color: #fff;
+}
+
+a{
+  color:rgb(118,142,139)!important;
+}
